@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>Third Party Support - MHWA</title>
+        </head>
+        <body>
+            <h1>MHWA</h1>
+
+            <div id="links">                
+                <button id = "nhsButton">NHS</button>
+                <button id = "mindButton">Mind</button>
+                <button id = "nhsButton">Samaritans</button>
+            </div>
+        </body>
+
+        <script>
+            
+            document.getElementById("nhsButton").addEventListener("click", redirectFunction);
+            
+            function redirectFunction() {
+    
+            location.href = "https://www.nhs.uk/mental-health/";
+            }
+
+        </script>
+    </html>
