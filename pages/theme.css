@@ -34,18 +34,8 @@ p {
     background-color: #EBEBEB;
     color: white;
     text-align: center;
- }
-
-
-/* .footer {
-    position: fixed;
-    background-color: blue;
-    color: white;
-    text-align: center;
-} */
 }
 
-input[type=text], select {
  input[type=text], select {
     width: 60%;
     padding: 12px 20px;
@@ -81,6 +71,8 @@ input[type=text], select {
 }
 }
 /*
+
+
 input[type=submit] {
     background-color: blue;
     color: white;
@@ -104,9 +96,10 @@ input[type=submit1] {
     margin-left: 45%;
     border: solid blue;
     /* float: left; 
+     float: left; 
 }
-
 */
+
 input[type=submit]:hover {
     background-color: #ffffff;
     color: blue;
@@ -115,11 +108,6 @@ input[type=submit]:hover {
     
 }
 
-/* div {
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 20px;
-} */
 input[type=submit1]:hover {
     background-color: #ffffff;
     color: blue;
